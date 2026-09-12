@@ -1,0 +1,89 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px 0;
+    color: #111;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    width: 600px;
+    margin: 0 auto 15px auto;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Main content */
+main {
+    width: 321px;
+    margin: 0 auto;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin: 10px 0 16px 0;
+}
+
+/* Temple image */
+main img {
+    display: block;
+    width: 321px;
+    height: 241px;
+    object-fit: cover;
+    margin: 0 auto 25px auto;
+
+    /* Shadow around image */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Information sections */
+section {
+    background-color: #ddd;
+    padding: 18px 15px;
+    margin-bottom: 18px;
+}
+
+/* Section headings */
+section h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #999;
+}
+
+/* Paragraphs */
+section p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+/* Lists */
+section ul {
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 18px;
+    margin-top: 8px;
+}
+
+section li {
+    margin-bottom: 2px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    width: 600px;
+    margin: 18px auto 0 auto;
+    padding: 13px 0;
+    text-align: center;
+    font-size: 14px;
+}
