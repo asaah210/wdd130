@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #eee;
+    --border-color: rgb(0 0 0 / 0.2);
+    --footer-border: #000;
+}
+
 main {
     max-width: 840px;
 }
@@ -5,11 +12,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0/0.2);
-    /* 1*/
+    border: 1px solid var(--border-color);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -29,7 +35,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--footer-border);
     text-align: center;
-
 }
