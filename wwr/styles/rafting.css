@@ -129,3 +129,84 @@
  button:hover {
      background-color: var(--accent-color);
  }
+
+ /* Contact Page */
+
+ main {
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ main h1 {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ main section {
+     margin-bottom: 30px;
+ }
+
+ main section h2 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ main iframe {
+     display: block;
+     max-width: 100%;
+     margin: 20px auto;
+ }
+
+ main figure {
+     display: inline-block;
+     width: 30%;
+     margin: 1%;
+     text-align: center;
+     vertical-align: top;
+ }
+
+ main figure img {
+     width: 100%;
+     height: auto;
+ }
+
+ main figcaption {
+     font-weight: bold;
+     padding: 10px;
+ }
+
+ form {
+     max-width: 650px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #eee;
+     display: grid;
+     gap: 10px;
+ }
+
+ form input,
+ form textarea {
+     padding: 10px;
+     font-size: 1rem;
+ }
+
+ form textarea {
+     min-height: 120px;
+ }
+
+ fieldset {
+     padding: 15px;
+     margin: 10px 0;
+ }
+
+ fieldset label {
+     margin-right: 15px;
+ }
+
+ form button {
+     padding: 12px;
+     font-size: 1rem;
+     font-weight: bold;
+     cursor: pointer;
+ }

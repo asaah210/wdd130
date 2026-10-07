@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact Us | White Water Rafting</title>
     <meta name="description"
       content="Contact White Water Rafting for information about our rafting adventures, reservations, and services.">
     <meta name="author" content="Asaah Lekara">
+
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -27,46 +28,41 @@
 
     <main>
 
-        <h1>Contact Us</h1>
-
-        <section class="box">
+        <h1>Contact White Water Rafting</h1>
+        <section>
             <h2>Contact Information</h2>
 
             <p><strong>Address:</strong> 123 River Road, Adventure City</p>
-
             <p><strong>Phone:</strong> +1 555-123-4567</p>
-
             <p><strong>Email:</strong> info@whitewaterrafting.com</p>
 
-            <iframe src="https://www.google.com/maps/embed?pb=" width="600" height="300"
-              loading="lazy">
+            <iframe src="https://www.google.com/maps?q=San+Francisco,+California&output=embed"
+              width="600" height="300" loading="lazy" title="White Water Rafting Location">
             </iframe>
-        </section>
 
-        <section class="box">
+        </section>
+        <section>
             <h2>Meet Our Team</h2>
 
             <figure>
-                <img src="images/employee1.jpg" alt="Missionary" width="100" height="100">
-                <figcaption>Missionary - Rafting Guide</figcaption>
+                <img src="images/employee1.jpg" alt="Rafting guide">
+                <figcaption>John - Lead Rafting Guide</figcaption>
             </figure>
 
             <figure>
-                <img src="images/employee2.jpg" alt="Lekara" width="100" height="100">
-                <figcaption>Lekara - Customer Service Manager</figcaption>
+                <img src="images/employee2.jpg" alt="Customer service manager">
+                <figcaption>Mary - Customer Service Manager</figcaption>
             </figure>
 
             <figure>
-                <img src="images/employee3.jpg" alt="Sampson" width="100" height="100">
-                <figcaption>sampson - Operations Manager</figcaption>
+                <img src="images/employee3.jpg" alt="Adventure coordinator">
+                <figcaption>David - Adventure Coordinator</figcaption>
             </figure>
         </section>
-
-        <section class="box">
+        <section>
             <h2>Send Us a Message</h2>
 
             <form>
-
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -74,46 +70,49 @@
                 <input type="email" id="email" name="email" required>
 
                 <fieldset>
-                    <legend>Purpose of Message</legend>
+                    <legend>Purpose of Message:</legend>
 
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general">
-                        General Inquiry
-                    </label>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
 
-
-                    <label>
-                        <input type="radio" id="reservation" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-
-
-                    <label>
-                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                        Website Suggestion
-                    </label>
-
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
                 </fieldset>
 
-                <footer>
-                    <p>© 2026 White Water Rafting | Asaah Lekara</p>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-                    <nav class="socialmedia">
-                        <a href="https://facebook.com">
-                            <img src="images/facebook.svg" alt="Facebook">
-                        </a>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
 
-                        <a href="https://twitter.com">
-                            <img src="images/twitter.svg" alt="Twitter">
-                        </a>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
-                        <a href="https://instagram.com">
-                            <img src="images/instagram.svg" alt="Instagram">
-                        </a>
-                    </nav>
-                </footer>
+    </main>
+    <footer>
+        <p>© 2026 White Water Rafting | Asaah Lekara</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
 
 </body>
 
-</html>OCTs
+</html>
